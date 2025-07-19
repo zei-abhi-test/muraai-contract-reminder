@@ -1,0 +1,15 @@
+[Unit]
+Description=Muraai Contract Renewal Reminder App
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/path/to/muraai-contract-reminder
+Environment=PATH=/path/to/muraai-contract-reminder/venv/bin
+ExecStart=/path/to/muraai-contract-reminder/venv/bin/gunicorn -w 4 -b 0.0.0.0:5000 src.main:app
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
