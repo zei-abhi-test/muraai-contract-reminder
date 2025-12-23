@@ -19,8 +19,8 @@ app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
 # Email configuration (for demo purposes - in production, use environment variables)
 app.config['SMTP_SERVER'] = 'smtp.gmail.com'
 app.config['SMTP_PORT'] = 587
-app.config['EMAIL_USER'] = 'usetoshiba27@gmail.com'  # Replace with actual email
-app.config['EMAIL_PASSWORD'] = 'tspf zcbs obbr ivzn'  # Replace with actual app password
+app.config['EMAIL_USER'] = 'rekha.mh@muraai.com'  # Replace with actual email
+app.config['EMAIL_PASSWORD'] = 'fxthdcbptwhmdfct'  # Replace with actual app password
 
 # Firebase Cloud Messaging configuration (for demo purposes)
 app.config['FCM_SERVER_KEY'] = 'your-fcm-server-key'  # Replace with actual FCM server key
